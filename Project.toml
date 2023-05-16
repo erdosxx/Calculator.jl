@@ -1,0 +1,13 @@
+name = "Calculator"
+uuid = "2d0fc41a-5af7-4d2f-96fc-8ea4c7ef0d9b"
+authors = ["Norel <norel.evoagile@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
